@@ -11,6 +11,18 @@
 		516468032CE3E1EB002458DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516468022CE3E1EB002458DD /* ContentView.swift */; };
 		516468052CE3E1EC002458DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 516468042CE3E1EC002458DD /* Assets.xcassets */; };
 		516468082CE3E1EC002458DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 516468072CE3E1EC002458DD /* Preview Assets.xcassets */; };
+		516468152CE3E5C2002458DD /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 516468142CE3E5C2002458DD /* Colors.xcassets */; };
+		516468182CE3E604002458DD /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516468172CE3E604002458DD /* Colors.swift */; };
+		5164681D2CE3E630002458DD /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5164681B2CE3E630002458DD /* Icons.swift */; };
+		5164681F2CE3E649002458DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5164681E2CE3E649002458DD /* Images.xcassets */; };
+		516468232CE3F9D0002458DD /* CharactersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516468222CE3F9D0002458DD /* CharactersView.swift */; };
+		516468252CE3FC2A002458DD /* FontSizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516468242CE3FC2A002458DD /* FontSizes.swift */; };
+		516468272CE3FDA1002458DD /* CharactersRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516468262CE3FDA1002458DD /* CharactersRepository.swift */; };
+		5164682A2CE3FE5A002458DD /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 516468292CE3FE5A002458DD /* Alamofire */; };
+		5164682D2CE3FEF5002458DD /* CharactersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5164682C2CE3FEF5002458DD /* CharactersModel.swift */; };
+		516468312CE40197002458DD /* CharactersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516468302CE40197002458DD /* CharactersViewModel.swift */; };
+		516468342CE40699002458DD /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516468332CE40699002458DD /* Strings.swift */; };
+		516468362CE40740002458DD /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516468352CE40740002458DD /* Base.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +31,17 @@
 		516468022CE3E1EB002458DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		516468042CE3E1EC002458DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		516468072CE3E1EC002458DD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		516468142CE3E5C2002458DD /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		516468172CE3E604002458DD /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		5164681B2CE3E630002458DD /* Icons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Icons.swift; sourceTree = "<group>"; };
+		5164681E2CE3E649002458DD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		516468222CE3F9D0002458DD /* CharactersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersView.swift; sourceTree = "<group>"; };
+		516468242CE3FC2A002458DD /* FontSizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSizes.swift; sourceTree = "<group>"; };
+		516468262CE3FDA1002458DD /* CharactersRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersRepository.swift; sourceTree = "<group>"; };
+		5164682C2CE3FEF5002458DD /* CharactersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersModel.swift; sourceTree = "<group>"; };
+		516468302CE40197002458DD /* CharactersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersViewModel.swift; sourceTree = "<group>"; };
+		516468332CE40699002458DD /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		516468352CE40740002458DD /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5164682A2CE3FE5A002458DD /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,9 +75,13 @@
 		516467FF2CE3E1EB002458DD /* Harry Potter */ = {
 			isa = PBXGroup;
 			children = (
-				516468002CE3E1EB002458DD /* Harry_PotterApp.swift */,
-				516468022CE3E1EB002458DD /* ContentView.swift */,
-				516468042CE3E1EC002458DD /* Assets.xcassets */,
+				5164680E2CE3E291002458DD /* Other */,
+				516468132CE3E525002458DD /* Resources */,
+				516468122CE3E516002458DD /* Utils */,
+				516468112CE3E415002458DD /* Network */,
+				51D14C1D2CE4DAF1002468B2 /* Components */,
+				5164680F2CE3E297002458DD /* Views */,
+				5164682E2CE40176002458DD /* ViewModels */,
 				516468062CE3E1EC002458DD /* Preview Content */,
 			);
 			path = "Harry Potter";
@@ -65,6 +93,125 @@
 				516468072CE3E1EC002458DD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5164680E2CE3E291002458DD /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				516468002CE3E1EB002458DD /* Harry_PotterApp.swift */,
+				516468022CE3E1EB002458DD /* ContentView.swift */,
+				516468042CE3E1EC002458DD /* Assets.xcassets */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		5164680F2CE3E297002458DD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				516468212CE3F92A002458DD /* Characters */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		516468112CE3E415002458DD /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				51D14C202CE4EA32002468B2 /* Repository */,
+				5164682B2CE3FECE002458DD /* Models */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		516468122CE3E516002458DD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				516468322CE40679002458DD /* Constants */,
+				516468192CE3E621002458DD /* Enums */,
+				516468162CE3E5FB002458DD /* Extensions */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		516468132CE3E525002458DD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5164681E2CE3E649002458DD /* Images.xcassets */,
+				516468142CE3E5C2002458DD /* Colors.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		516468162CE3E5FB002458DD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				516468172CE3E604002458DD /* Colors.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		516468192CE3E621002458DD /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				5164681B2CE3E630002458DD /* Icons.swift */,
+				516468242CE3FC2A002458DD /* FontSizes.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		516468212CE3F92A002458DD /* Characters */ = {
+			isa = PBXGroup;
+			children = (
+				516468222CE3F9D0002458DD /* CharactersView.swift */,
+			);
+			path = Characters;
+			sourceTree = "<group>";
+		};
+		5164682B2CE3FECE002458DD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5164682C2CE3FEF5002458DD /* CharactersModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5164682E2CE40176002458DD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				5164682F2CE40180002458DD /* CharatersViewModel */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5164682F2CE40180002458DD /* CharatersViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				516468302CE40197002458DD /* CharactersViewModel.swift */,
+			);
+			path = CharatersViewModel;
+			sourceTree = "<group>";
+		};
+		516468322CE40679002458DD /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				516468332CE40699002458DD /* Strings.swift */,
+				516468352CE40740002458DD /* Base.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		51D14C1D2CE4DAF1002468B2 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		51D14C202CE4EA32002468B2 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				516468262CE3FDA1002458DD /* CharactersRepository.swift */,
+			);
+			path = Repository;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +230,9 @@
 			dependencies = (
 			);
 			name = "Harry Potter";
+			packageProductDependencies = (
+				516468292CE3FE5A002458DD /* Alamofire */,
+			);
 			productName = "Harry Potter";
 			productReference = 516467FD2CE3E1EB002458DD /* Harry Potter.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +261,9 @@
 				Base,
 			);
 			mainGroup = 516467F42CE3E1EB002458DD;
+			packageReferences = (
+				516468282CE3FE5A002458DD /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 516467FE2CE3E1EB002458DD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +278,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				516468152CE3E5C2002458DD /* Colors.xcassets in Resources */,
+				5164681F2CE3E649002458DD /* Images.xcassets in Resources */,
 				516468082CE3E1EC002458DD /* Preview Assets.xcassets in Resources */,
 				516468052CE3E1EC002458DD /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +292,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				516468312CE40197002458DD /* CharactersViewModel.swift in Sources */,
 				516468032CE3E1EB002458DD /* ContentView.swift in Sources */,
+				5164682D2CE3FEF5002458DD /* CharactersModel.swift in Sources */,
+				516468252CE3FC2A002458DD /* FontSizes.swift in Sources */,
+				516468342CE40699002458DD /* Strings.swift in Sources */,
+				516468232CE3F9D0002458DD /* CharactersView.swift in Sources */,
+				516468182CE3E604002458DD /* Colors.swift in Sources */,
+				5164681D2CE3E630002458DD /* Icons.swift in Sources */,
+				516468272CE3FDA1002458DD /* CharactersRepository.swift in Sources */,
 				516468012CE3E1EB002458DD /* Harry_PotterApp.swift in Sources */,
+				516468362CE40740002458DD /* Base.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +501,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		516468282CE3FE5A002458DD /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		516468292CE3FE5A002458DD /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 516468282CE3FE5A002458DD /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 516467F52CE3E1EB002458DD /* Project object */;
 }
