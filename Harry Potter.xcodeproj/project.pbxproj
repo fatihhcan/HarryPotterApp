@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5148C4D32CE7FAAF0056155A /* HarryPotterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5148C4D22CE7FAAF0056155A /* HarryPotterTests.swift */; };
+		5148C4DE2CEBB26C0056155A /* MockCharactersRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5148C4DD2CEBB26C0056155A /* MockCharactersRepository.swift */; };
+		5148C4E02CEBB2B70056155A /* MockModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5148C4DF2CEBB2B70056155A /* MockModel.swift */; };
 		516468012CE3E1EB002458DD /* Harry_PotterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516468002CE3E1EB002458DD /* Harry_PotterApp.swift */; };
 		516468032CE3E1EB002458DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516468022CE3E1EB002458DD /* ContentView.swift */; };
 		516468052CE3E1EC002458DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 516468042CE3E1EC002458DD /* Assets.xcassets */; };
@@ -23,9 +26,31 @@
 		516468312CE40197002458DD /* CharactersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516468302CE40197002458DD /* CharactersViewModel.swift */; };
 		516468342CE40699002458DD /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516468332CE40699002458DD /* Strings.swift */; };
 		516468362CE40740002458DD /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516468352CE40740002458DD /* Base.swift */; };
+		519C1A492CEBCB1200D4055B /* MockCharactersAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519C1A482CEBCB1200D4055B /* MockCharactersAPIClient.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		5148C4D42CE7FAAF0056155A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 516467F52CE3E1EB002458DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 516467FC2CE3E1EB002458DD;
+			remoteInfo = "Harry Potter";
+		};
+		51D14C292CE50D65002468B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 516467F52CE3E1EB002458DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 516467FC2CE3E1EB002458DD;
+			remoteInfo = "Harry Potter";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		5148C4D02CE7FAAF0056155A /* HarryPotterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HarryPotterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5148C4D22CE7FAAF0056155A /* HarryPotterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarryPotterTests.swift; sourceTree = "<group>"; };
+		5148C4DD2CEBB26C0056155A /* MockCharactersRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCharactersRepository.swift; sourceTree = "<group>"; };
+		5148C4DF2CEBB2B70056155A /* MockModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockModel.swift; sourceTree = "<group>"; };
 		516467FD2CE3E1EB002458DD /* Harry Potter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Harry Potter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		516468002CE3E1EB002458DD /* Harry_PotterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Harry_PotterApp.swift; sourceTree = "<group>"; };
 		516468022CE3E1EB002458DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -42,9 +67,18 @@
 		516468302CE40197002458DD /* CharactersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersViewModel.swift; sourceTree = "<group>"; };
 		516468332CE40699002458DD /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 		516468352CE40740002458DD /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
+		519C1A482CEBCB1200D4055B /* MockCharactersAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCharactersAPIClient.swift; sourceTree = "<group>"; };
+		51D14C252CE50D65002468B2 /* Harry PotterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Harry PotterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5148C4CD2CE7FAAF0056155A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		516467FA2CE3E1EB002458DD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -53,13 +87,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		51D14C222CE50D65002468B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5148C4D12CE7FAAF0056155A /* HarryPotterTests */ = {
+			isa = PBXGroup;
+			children = (
+				5148C4D22CE7FAAF0056155A /* HarryPotterTests.swift */,
+				5148C4DD2CEBB26C0056155A /* MockCharactersRepository.swift */,
+				5148C4DF2CEBB2B70056155A /* MockModel.swift */,
+				519C1A482CEBCB1200D4055B /* MockCharactersAPIClient.swift */,
+			);
+			path = HarryPotterTests;
+			sourceTree = "<group>";
+		};
 		516467F42CE3E1EB002458DD = {
 			isa = PBXGroup;
 			children = (
 				516467FF2CE3E1EB002458DD /* Harry Potter */,
+				5148C4D12CE7FAAF0056155A /* HarryPotterTests */,
 				516467FE2CE3E1EB002458DD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,6 +121,8 @@
 			isa = PBXGroup;
 			children = (
 				516467FD2CE3E1EB002458DD /* Harry Potter.app */,
+				51D14C252CE50D65002468B2 /* Harry PotterTests.xctest */,
+				5148C4D02CE7FAAF0056155A /* HarryPotterTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -217,6 +272,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		5148C4CF2CE7FAAF0056155A /* HarryPotterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5148C4D62CE7FAAF0056155A /* Build configuration list for PBXNativeTarget "HarryPotterTests" */;
+			buildPhases = (
+				5148C4CC2CE7FAAF0056155A /* Sources */,
+				5148C4CD2CE7FAAF0056155A /* Frameworks */,
+				5148C4CE2CE7FAAF0056155A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5148C4D52CE7FAAF0056155A /* PBXTargetDependency */,
+			);
+			name = HarryPotterTests;
+			productName = HarryPotterTests;
+			productReference = 5148C4D02CE7FAAF0056155A /* HarryPotterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		516467FC2CE3E1EB002458DD /* Harry Potter */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5164680B2CE3E1EC002458DD /* Build configuration list for PBXNativeTarget "Harry Potter" */;
@@ -237,6 +310,24 @@
 			productReference = 516467FD2CE3E1EB002458DD /* Harry Potter.app */;
 			productType = "com.apple.product-type.application";
 		};
+		51D14C242CE50D65002468B2 /* Harry PotterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51D14C2B2CE50D65002468B2 /* Build configuration list for PBXNativeTarget "Harry PotterTests" */;
+			buildPhases = (
+				51D14C212CE50D65002468B2 /* Sources */,
+				51D14C222CE50D65002468B2 /* Frameworks */,
+				51D14C232CE50D65002468B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51D14C2A2CE50D65002468B2 /* PBXTargetDependency */,
+			);
+			name = "Harry PotterTests";
+			productName = "Harry PotterTests";
+			productReference = 51D14C252CE50D65002468B2 /* Harry PotterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -247,8 +338,16 @@
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
+					5148C4CF2CE7FAAF0056155A = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 516467FC2CE3E1EB002458DD;
+					};
 					516467FC2CE3E1EB002458DD = {
 						CreatedOnToolsVersion = 14.3.1;
+					};
+					51D14C242CE50D65002468B2 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 516467FC2CE3E1EB002458DD;
 					};
 				};
 			};
@@ -269,11 +368,20 @@
 			projectRoot = "";
 			targets = (
 				516467FC2CE3E1EB002458DD /* Harry Potter */,
+				51D14C242CE50D65002468B2 /* Harry PotterTests */,
+				5148C4CF2CE7FAAF0056155A /* HarryPotterTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		5148C4CE2CE7FAAF0056155A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		516467FB2CE3E1EB002458DD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -285,9 +393,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		51D14C232CE50D65002468B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5148C4CC2CE7FAAF0056155A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5148C4E02CEBB2B70056155A /* MockModel.swift in Sources */,
+				5148C4D32CE7FAAF0056155A /* HarryPotterTests.swift in Sources */,
+				5148C4DE2CEBB26C0056155A /* MockCharactersRepository.swift in Sources */,
+				519C1A492CEBCB1200D4055B /* MockCharactersAPIClient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		516467F92CE3E1EB002458DD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -306,9 +432,63 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		51D14C212CE50D65002468B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		5148C4D52CE7FAAF0056155A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 516467FC2CE3E1EB002458DD /* Harry Potter */;
+			targetProxy = 5148C4D42CE7FAAF0056155A /* PBXContainerItemProxy */;
+		};
+		51D14C2A2CE50D65002468B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 516467FC2CE3E1EB002458DD /* Harry Potter */;
+			targetProxy = 51D14C292CE50D65002468B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		5148C4D72CE7FAAF0056155A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dfcapps.HarryPotterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Harry Potter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Harry Potter";
+			};
+			name = Debug;
+		};
+		5148C4D82CE7FAAF0056155A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dfcapps.HarryPotterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Harry Potter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Harry Potter";
+			};
+			name = Release;
+		};
 		516468092CE3E1EC002458DD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -479,9 +659,52 @@
 			};
 			name = Release;
 		};
+		51D14C2C2CE50D65002468B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dfcapps.Harry-PotterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Harry Potter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Harry Potter";
+			};
+			name = Debug;
+		};
+		51D14C2D2CE50D65002468B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dfcapps.Harry-PotterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Harry Potter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Harry Potter";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		5148C4D62CE7FAAF0056155A /* Build configuration list for PBXNativeTarget "HarryPotterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5148C4D72CE7FAAF0056155A /* Debug */,
+				5148C4D82CE7FAAF0056155A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		516467F82CE3E1EB002458DD /* Build configuration list for PBXProject "Harry Potter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -496,6 +719,15 @@
 			buildConfigurations = (
 				5164680C2CE3E1EC002458DD /* Debug */,
 				5164680D2CE3E1EC002458DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51D14C2B2CE50D65002468B2 /* Build configuration list for PBXNativeTarget "Harry PotterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51D14C2C2CE50D65002468B2 /* Debug */,
+				51D14C2D2CE50D65002468B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "4E4F7179-1F54-41B9-8DDB-E57D02B55222"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "24D06660-8566-431D-9050-B5FD2EA0E89D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Harry PotterTests/CharactersViewModelTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "CharactersViewModelTests"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "24D06660-8566-431D-9050-B5FD2EA0E89D - 8e646378baf0e667"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Harry_PotterTests.CharactersViewModelTests.__allocating_init(invocation: Swift.Optional&lt;__C.NSInvocation&gt;) -&gt; Harry_PotterTests.CharactersViewModelTests"
+                  moduleName = "Harry PotterTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fatihcan/Desktop/swift-projects/Harry%20Potter/Harry%20PotterTests/CharactersViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "24D06660-8566-431D-9050-B5FD2EA0E89D - b46b565f50d1a791"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Harry_PotterTests.CharactersViewModelTests.init(invocation: Swift.Optional&lt;__C.NSInvocation&gt;) -&gt; Harry_PotterTests.CharactersViewModelTests"
+                  moduleName = "Harry PotterTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fatihcan/Desktop/swift-projects/Harry%20Potter/Harry%20PotterTests/CharactersViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "24D06660-8566-431D-9050-B5FD2EA0E89D - eb75a9dd007b8c26"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Harry_PotterTests.CharactersViewModelTests.__allocating_init(selector: ObjectiveC.Selector) -&gt; Harry_PotterTests.CharactersViewModelTests"
+                  moduleName = "Harry PotterTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fatihcan/Desktop/swift-projects/Harry%20Potter/Harry%20PotterTests/CharactersViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "24D06660-8566-431D-9050-B5FD2EA0E89D - 2bc32de68a00d1b1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Harry_PotterTests.CharactersViewModelTests.init(selector: ObjectiveC.Selector) -&gt; Harry_PotterTests.CharactersViewModelTests"
+                  moduleName = "Harry PotterTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fatihcan/Desktop/swift-projects/Harry%20Potter/Harry%20PotterTests/CharactersViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "24D06660-8566-431D-9050-B5FD2EA0E89D - b18fa5efb0edcb96"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Harry_PotterTests.CharactersViewModelTests.__allocating_init() -&gt; Harry_PotterTests.CharactersViewModelTests"
+                  moduleName = "Harry PotterTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fatihcan/Desktop/swift-projects/Harry%20Potter/Harry%20PotterTests/CharactersViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "24D06660-8566-431D-9050-B5FD2EA0E89D - 38585e0d3d81c0cd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Harry_PotterTests.CharactersViewModelTests.init() -&gt; Harry_PotterTests.CharactersViewModelTests"
+                  moduleName = "Harry PotterTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fatihcan/Desktop/swift-projects/Harry%20Potter/Harry%20PotterTests/CharactersViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "24D06660-8566-431D-9050-B5FD2EA0E89D - c7713ef47f2524b5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Harry_PotterTests.CharactersViewModelTests.__deallocating_deinit"
+                  moduleName = "Harry PotterTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fatihcan/Desktop/swift-projects/Harry%20Potter/Harry%20PotterTests/CharactersViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7A7BB5BB-7167-4BEE-8B08-B459DE8628F0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Harry PotterTests/Harry_PotterTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "example()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0512E713-CF0F-4C0A-8D27-8D5AEDE1C261"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Harry PotterTests/Network/MockCharactersService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "MockCharactersService"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C8ADD585-FC90-421F-B8DB-526B86E238BE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Harry PotterTests/Harry_PotterTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9"
+            endingLineNumber = "9"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "C8ADD585-FC90-421F-B8DB-526B86E238BE - e9f86dc52d1b6b0d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Harry_PotterTests.Harry_PotterTests.__allocating_init(invocation: Swift.Optional&lt;__C.NSInvocation&gt;) -&gt; Harry_PotterTests.Harry_PotterTests"
+                  moduleName = "Harry PotterTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fatihcan/Desktop/swift-projects/Harry%20Potter/Harry%20PotterTests/Harry_PotterTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "C8ADD585-FC90-421F-B8DB-526B86E238BE - 27d6b5cca0a1806c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Harry_PotterTests.Harry_PotterTests.init(invocation: Swift.Optional&lt;__C.NSInvocation&gt;) -&gt; Harry_PotterTests.Harry_PotterTests"
+                  moduleName = "Harry PotterTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fatihcan/Desktop/swift-projects/Harry%20Potter/Harry%20PotterTests/Harry_PotterTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  uuid = "C8ADD585-FC90-421F-B8DB-526B86E238BE - e8015a66e4060ce"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Harry_PotterTests.Harry_PotterTests.__allocating_init(selector: ObjectiveC.Selector) -&gt; Harry_PotterTests.Harry_PotterTests"
+                  moduleName = "Harry PotterTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fatihcan/Desktop/swift-projects/Harry%20Potter/Harry%20PotterTests/Harry_PotterTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "C8ADD585-FC90-421F-B8DB-526B86E238BE - 57698c1a7d52164c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Harry_PotterTests.Harry_PotterTests.init(selector: ObjectiveC.Selector) -&gt; Harry_PotterTests.Harry_PotterTests"
+                  moduleName = "Harry PotterTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fatihcan/Desktop/swift-projects/Harry%20Potter/Harry%20PotterTests/Harry_PotterTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  uuid = "C8ADD585-FC90-421F-B8DB-526B86E238BE - 3ff147a54b1e5057"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Harry_PotterTests.Harry_PotterTests.__allocating_init() -&gt; Harry_PotterTests.Harry_PotterTests"
+                  moduleName = "Harry PotterTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fatihcan/Desktop/swift-projects/Harry%20Potter/Harry%20PotterTests/Harry_PotterTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "C8ADD585-FC90-421F-B8DB-526B86E238BE - e561d0d8498b5dd5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Harry_PotterTests.Harry_PotterTests.init() -&gt; Harry_PotterTests.Harry_PotterTests"
+                  moduleName = "Harry PotterTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fatihcan/Desktop/swift-projects/Harry%20Potter/Harry%20PotterTests/Harry_PotterTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "C8ADD585-FC90-421F-B8DB-526B86E238BE - f210924e47045efe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Harry_PotterTests.Harry_PotterTests.__deallocating_deinit"
+                  moduleName = "Harry PotterTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fatihcan/Desktop/swift-projects/Harry%20Potter/Harry%20PotterTests/Harry_PotterTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3A2DE3E3-8DB4-41F2-91E2-FF4C30DB0518"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Harry PotterTests/Harry_PotterTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "example()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FD87F1F4-D625-491C-8171-A37A19F685BB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HarryPotterTests/MockCharactersRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "fetchData(url:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F446D75C-2323-46B8-B9F8-206D8B150351"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HarryPotterTests/MockCharactersRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "fetchData(url:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "808A4D09-D073-448F-8992-CC8711A3FF52"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HarryPotterTests/MockCharactersRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "fetchData(url:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1D187D9D-4AFB-4F00-A960-260E961A6FBB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HarryPotterTests/HarryPotterTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "testFetchCharactersData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

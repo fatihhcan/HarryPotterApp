@@ -18,8 +18,8 @@ class CharactersRepository: CharactersServiceProtocol {
     func fetchChareters(completion: @escaping (Result<[Character], Error>) -> Void) {
         AF.request(baseURL).responseDecodable(of: [Character].self) { response in
             switch response.result {
-            case .success(let users):
-                completion(.success(users))
+            case .success(let character):
+                completion(.success(character))
             case .failure(let error):
                 completion(.failure(error))
             }
